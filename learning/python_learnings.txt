@@ -1,0 +1,12 @@
+
+map lambda function:
+ eg.
+	list(map(lambda n: n * 2, [1, 2, 3, 4, 5]))
+		o/p: [2, 4, 6, 8, 10]
+		
+ Definitions:
+	Lambda: A lambda expression is a way of creating a little function inline, without all the syntax of a def. 
+	Map: The map() function runs a lambda function over the list 
+	
+ syntax: 
+	list(map(lambda arg1, arg2 ... : expression of arg1, arg2, ..., list))
