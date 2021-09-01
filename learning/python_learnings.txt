@@ -28,6 +28,12 @@
 
 6. try:
        .......	
-   except:
+   except error_name: # to catch error_name error name type exceptions in code following try
        ......
+   except:   # catch all remaining exception
+   else:  # to notify user that code following try is executed succesfully
+   finally: # to all reosurce closing or clearing can be done as it is executed at the end
+   
+7. Classes in python
+	dir(NameOfObject): to obtain list of data attributes and methods associated with a class
        
