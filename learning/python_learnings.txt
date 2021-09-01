@@ -11,6 +11,14 @@
 	 syntax: 
 		list(map(lambda arg1, arg2 ... : expression of arg1, arg2, ..., list))
 		
-2. Tuple: (), List: [], Dictionary: {}, set: 
+2. Tuple: (, , , ), List: [, , , ], Dictionary: {"key": value, ....}, set:{, , , }
+	Dictionaries: Keys can only be strings, numbers, or tuples, but values can be any data type.
+	In sets, element is not duplicated.
+	
+3. # Loop through the list and iterate on both index and element value
 
-2. Dictionaries: Keys can only be strings, numbers, or tuples, but values can be any data type.
+		squares=['red', 'yellow', 'green', 'purple', 'blue']
+		for i, square in enumerate(squares):
+    		    print(i, square)
+		    
+4. 
