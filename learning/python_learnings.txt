@@ -21,4 +21,13 @@
 		for i, square in enumerate(squares):
     		    print(i, square)
 		    
-4. 
+4. Using "global" keyword global variable is created from witihin local space.
+
+5. When the number of arguments are unknown for a function. Eg. def printAll(*args): # All the arguments are 'packed' into args which can be treated like a tuple
+								def printDictionary(**args): # The arguments can also be packed into a dictionary
+
+6. try:
+       .......	
+   except:
+       ......
+       
