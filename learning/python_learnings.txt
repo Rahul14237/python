@@ -30,7 +30,7 @@
        .......	
    except error_name: # to catch error_name error name type exceptions in code following try
        ......
-   except:   # catch all remaining exception
+   except:   # catch all remaining exception. this is broad exception.
    else:  # to notify user that code following try is executed succesfully
    finally: # to all reosurce closing or clearing can be done as it is executed at the end
    
