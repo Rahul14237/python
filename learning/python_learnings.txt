@@ -49,7 +49,7 @@
 	
 	In class variables are of type: class, instance, local(loacl to methods: not accessible by class object), static, ... variables
 	
-	dir(NameOfObject): to obtain list of data attributes and methods associated with a class
+	dir(NameOfObject): to get list of data attributes and methods associated with a class
 	
 8. 
        
