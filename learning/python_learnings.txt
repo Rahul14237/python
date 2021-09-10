@@ -35,5 +35,21 @@
    finally: # to all reosurce closing or clearing can be done as it is executed at the end
    
 7. Classes in python
+	In python class, varables and methods are of 2 types: class and instance
+	Class variables are are accessiable to all obects created. These vaiables are defined outside of methods of class including constructor.
+	Class methods are accessible with class names, meaning w/o object. Class methods are defined in class with "cls" as first arfument. 
+	Instance variables are defined inside constructor/any other method with self. eg: self.name = ....
+	Instance methods are defined in class with first argument as self. Constructor is instance method.
+	
+	Unlike instance variables, instance methods are stored at one place which can be accessed by every object. By this approach memory is saved.
+	So slef is useful to call instance methods on every object. 
+	Self carries the value of the calling object for instance methods and differantiating address for insance variables.
+	Instance variables of every object has separate memory so those variables also has to be initiated with self.
+	this is genrally done inside constructor.
+	
+	In class variables are of type: class, instance, local(loacl to methods: not accessible by class object), static, ... variables
+	
 	dir(NameOfObject): to obtain list of data attributes and methods associated with a class
+	
+8. 
        
