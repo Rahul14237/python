@@ -49,7 +49,12 @@
 	
 	In class variables are of type: class, instance, local(loacl to methods: not accessible by class object), static, ... variables
 	
+	Use blog on MEDIUM under title for better understanding: Understanding self in Python
+	
 	dir(NameOfObject): to get list of data attributes and methods associated with a class
 	
-8. 
-       
+8. With statement:
+	Using the "with" statement is better practice, it automatically closes the file even if the code encounters an exception. The code will run everything in the indent 		block then close the file object.
+       		with open(example1, "r") as file1:
+    		FileContent = file1.read()
+    		print(FileContent)
