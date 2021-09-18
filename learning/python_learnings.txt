@@ -7,7 +7,8 @@
  	Definitions:
 		Lambda: A lambda expression is a way of creating a little anonymous(w/o name) function inline, without all the syntax of a def. 
 			These types of functions can take any number of arguments, but can only have one expression.
-			syntax: lambda p1, p2: expression
+			syntax: lambad_fun_var = lambda p1, p2: expression
+				wherever "lambad_fun_var" variable is used in code, lambda function is called.
 			
 		Map: The map() function runs a lambda function over the list 
 	
