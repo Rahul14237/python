@@ -5,7 +5,10 @@
 			o/p: [2, 4, 6, 8, 10]
 		
  	Definitions:
-		Lambda: A lambda expression is a way of creating a little function inline, without all the syntax of a def. 
+		Lambda: A lambda expression is a way of creating a little anonymous(w/o name) function inline, without all the syntax of a def. 
+			These types of functions can take any number of arguments, but can only have one expression.
+			syntax: lambda p1, p2: expression
+			
 		Map: The map() function runs a lambda function over the list 
 	
 	 syntax: 
