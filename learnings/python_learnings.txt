@@ -62,3 +62,14 @@
        		with open(example1, "r") as file1:
     		FileContent = file1.read()
     		print(FileContent)
+		
+9. REST API
+	- REpresentational State Transfer APIs
+	- Used to interact with web services i.e. applications that you call through the internet
+	- Client  ->(i/p)/<-(o/p) through APIs  from web service
+	- your code: client
+	- web server: Resource/web service
+	- Request is sent in http format and http message usually contains JSON file and 
+	- operation is performed and response is sent back by server in http json msg format
+	- imp link: https://www.coingecko.com
+	- 
